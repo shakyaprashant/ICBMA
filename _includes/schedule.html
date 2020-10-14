@@ -1,0 +1,29 @@
+<!-- Begin Schedule Section -->
+<section id="schedule" class="schedule">
+    <div class="content-wrapper">
+        <div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
+			<h3>{{ site.importantDatesTitle }}</h3>
+			<div class="important-dates-table row animated hiding" data-animation="fadeInDown" data-delay="0">
+			{% assign animationDelay = 0 %}
+            {% for date in site.importantDates %}
+	            <div class="important-dates-row animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+	            	<div class="row">
+						<div class="col-sm-6 col-xs-12">
+							<p class="title"><b>{{ date.name }}</b></p>
+							{% if date.additionalInfo != null %}
+								<span class="ticket-additional-info">{{ date.additionalInfo }}</span>
+							{% endif %}
+						</div>
+						<div class="col-sm-6 col-xs-12">
+							<p class="price">{{ date.date }} </p>
+						</div>
+					</div>
+				</div>
+			{% assign animationDelay = animationDelay | plus:250 %}
+            {% endfor %}
+            </div>
+            <!-- <span class="tickets-info">{{ site.ticketsInfo }}</span> -->
+        </div>
+    </div>
+</section>
+<!-- End Schedule Section -->

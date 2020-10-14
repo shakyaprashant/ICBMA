@@ -1,0 +1,36 @@
+<!-- Begin Location Section -->
+<section>
+    <!-- <div id="canvas-map" class="canvas-map"></div> -->
+    <!-- <div class="content-wrapper">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-md-offset-1 animated hiding location-description text-left" data-animation="fadeInLeft" data-delay="0">
+            <div class="row">
+                <div class="pull-left">
+                    <h3>{{ site.locationBlockTitle }}</h3>
+                    <ul>
+                        {% if site.eventLocationName %}<li>{{ site.eventLocationName }}</li>{% endif %}
+                        <li>{{ site.eventStreetAddress }}, {{ site.eventAddressLocality }}</li>
+                        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+                        <li>
+                            {% assign startTime = site.eventStartTime | split: "T" %}
+                            <time>{{ startTime[1] }}</time> -
+                            {% assign endTime = site.eventEndTime | split: "T" %}
+                            <time>{{ endTime[1] }}</time>
+                        </li>
+                    </ul>
+                </div>
+                <a href="{{ site.baseurl | append: '/logistics/#find-way' }}" class="pull-right">
+                    <svg class="icon icon-direction" viewBox="0 0 32 32">
+                        <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-direction"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div> -->
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h3>{{ site.locationBlockTitle }}</h3>
+        </div>
+    </div>
+    <iframe width="100%" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=MNNIT,+Teliarganj,+Allahabad,+Uttar+Pradesh,+India&amp;aq=0&amp;oq=mnn&amp;sll=37.0625,-95.677068&amp;sspn=38.41771,86.572266&amp;ie=UTF8&amp;hq=MNNIT,+Teliarganj,+Allahabad,+Uttar+Pradesh,+India&amp;ll=25.492948,81.866039&amp;spn=0.009803,0.00976&amp;t=m&amp;output=embed"></iframe>
+</section>
+<!-- End Location Section -->
