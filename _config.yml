@@ -55,7 +55,7 @@ rightNavigationButtons:
  - {link: "/registration/", text: "Register"}
 
 # Hero Block
-heroImage: "Academic_Building.png"
+heroImage: "Academic_Building.jpg"
 heroLogo: "mnnitlogo.png"
 eventName: "ICBMA 2020"
 heroTitle: "Big Data, Machine Learning & Their Applications"
@@ -79,6 +79,33 @@ importantDates:
   - {name: "Final Paper Submission Deadline", date: "April 15"}
   - {name: "Author's Registration", date: "April 15"}
   - {name: "Conference", date: "June 5 - 7, 2020"}
+
+advisoryBoardTitle: "Advisory Board"
+advisoryBoardImage: "rockstar-speakers.jpg"
+advisoryBoardMembers:
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg"}
+
+
+organisingCommitteeTitle: "Organising Committee"
+organisingCommitteeImage: "rockstar-speakers.jpg"
+organisingCommitteeMembers:
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+
 
 
 # Statistic Block

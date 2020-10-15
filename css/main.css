@@ -5771,3 +5771,31 @@ nav li a:hover {
 .important-dates-row:last-child {
   border: none;
 }
+.advisory-board .name {
+  font-size: 26px;
+  line-height: 1.1;
+  margin: 10px 0 2px;
+}
+.advisory-board .sub {
+  font-size: 18.2px;
+  margin: 0 0 15px;
+  color: #03a9f4;
+}
+.member-img {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+}
+.member {
+  padding-bottom: 13px;
+}
+.advisory-board .name {
+  font-size: 20px;
+}
+.advisory-board .sub {
+  font-size: 16px;
+}
+.member-img {
+  width: 120px;
+  height: 120px;
+}
