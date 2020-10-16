@@ -5799,3 +5799,7 @@ nav li a:hover {
   width: 120px;
   height: 120px;
 }
+
+ol li, ul li {
+  text-align: left;
+}
