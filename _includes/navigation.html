@@ -1,3 +1,5 @@
+
+
 <header id="top-header" class="top-header">
     <div class="overlay white-solid"></div>
     <svg id="menu-trigger" class="menu-trigger icon icon-menu visible-xs" viewBox="0 0 32 32">
@@ -7,13 +9,46 @@
         <div class="logo" style="background-image: url('{{ site.baseurl }}/img/sprites/{{site.navigationLogoImg}}');background-size: contain;margin-right: 0;"></div>
     </a>
     <nav class="st-menu st-effect" id="menu">
-        <div class="logo-navbar logo logo-dark visible-xs"></div>
+        <div class="logo-navbar logo logo-dark visible-xs" style="background-image: url('{{ site.baseurl }}/img/sprites/{{site.navigationLogoImg}}');background-size: contain;"></div>
         <ul>
-            {% for navigationLink in site.navigationLinks %}
+            {% assign navigationLink = site.navigationLinks[0] %}
             <li>
                 <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"  href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}" {% if navigationLink.link != null %}target="_blank"{% endif %}>{{ navigationLink.text}}</a>
             </li>
-            {% endfor %}
+            {% assign navigationLink = site.navigationLinks[1] %}
+            <li class="dropdown">
+                <a class="dropdown-toggle {% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}" href="#" data-toggle="dropdown">{{ navigationLink.text}}</a>
+                <div id="myDropdownCalls" class="dropdown-menu">
+                    <a href="{{ site.baseurl }}/advisory-board/" class="dropdown-item">Advisory Board</a>
+                    <a href="{{ site.baseurl }}/organising/" class="dropdown-item">Organising Committee</a>
+                    <a href="{{ site.baseurl }}/program/" class="dropdown-item">Program Committee</a>
+                </div>
+            </li>
+            {% assign navigationLink = site.navigationLinks[2] %}
+            <!-- calls -->
+            <li class="dropdown">
+                <a class="dropdown-toggle {% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}" href="#" data-toggle="dropdown">{{ navigationLink.text}}</a>
+                <div id="myDropdownCalls" class="dropdown-menu">
+                    <a href="{{ site.baseurl }}/call-for-papers/" class="dropdown-item">Call for Papers</a>
+                    <a href="{{ site.baseurl }}/submission-instructions/" class="dropdown-item">Submission Instructions</a>
+                </div>
+            </li>
+            {% assign navigationLink = site.navigationLinks[3] %}
+            <li>
+                <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"  href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}" {% if navigationLink.link != null %}target="_blank"{% endif %}>{{ navigationLink.text}}</a>
+            </li>
+            {% assign navigationLink = site.navigationLinks[4] %}
+            <li class="dropdown">
+                <a class="dropdown-toggle {% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}" href="#" data-toggle="dropdown">{{ navigationLink.text}}</a>
+                <div id="myDropdownCalls" class="dropdown-menu">
+                    <a href="{{ site.baseurl }}/keynotes/" class="dropdown-item">Keynotes & Tutorials</a>
+                    <a href="{{ site.baseurl }}/schedule/" class="dropdown-item">Schedule</a>
+                </div>
+            </li>
+            {% assign navigationLink = site.navigationLinks[5] %}
+            <li>
+                <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"  href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}" {% if navigationLink.link != null %}target="_blank"{% endif %}>{{ navigationLink.text}}</a>
+            </li>
         </ul>
         <ul id="bottom-navlinks" class="bottom-navlinks visible-xs">
             {% for bottomNavigationLink in site.bottomNavigationLinks %}

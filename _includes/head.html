@@ -1,41 +1,63 @@
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-    <meta name="author" content="Oleh Zasadnyy, GDG Lviv">
-    <meta name="description" content="{{ site.description }}">
-    <meta name="keywords" content="{{ site.metaKeywords }}">
-    <meta name="google-site-verification" content="{{ site.siteVerification }}" />
-    <link rel="canonical" href="{{ site.url }}">
-    
-    <title>{% if page.title %}{{ page.title }} &bull; {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <link rel="shortcut icon" href="{{ "/img/favicons/favicon.ico" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ "/img/favicons/apple-touch-icon-152x152.png" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ "/img/favicons/apple-touch-icon-144x144.png" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ "/img/favicons/apple-touch-icon-120x120.png" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ "/img/favicons/apple-touch-icon-114x114.png" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ "/img/favicons/apple-touch-icon-76x76.png" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ "/img/favicons/apple-touch-icon-72x72.png" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" sizes="60x60" href="{{ "/img/favicons/apple-touch-icon-60x60.png" | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ "/img/favicons/apple-touch-icon-57x57.png" | prepend: site.baseurl }}">
-    <link rel="icon" type="image/png" href="{{ "/img/favicons/favicon-196x196.png" sizes="196x196" | prepend: site.baseurl }}">
-    <link rel="icon" type="image/png" href="{{ "/img/favicons/favicon-160x160.png" sizes="160x160" | prepend: site.baseurl }}">
-    <link rel="icon" type="image/png" href="{{ "/img/favicons/favicon-96x96.png" sizes="96x96" | prepend: site.baseurl }}">
-    <link rel="icon" type="image/png" href="{{ "/img/favicons/favicon-32x32.png" sizes="32x32" | prepend: site.baseurl }}">
-    <link rel="icon" type="image/png" href="{{ "/img/favicons/favicon-16x16.png" sizes="16x16" | prepend: site.baseurl }}">
-    <meta name="msapplication-TileColor" content="#2b5797">
-    <meta name="msapplication-TileImage" content="{{ "/img/favicons/mstile-144x144.png" | prepend: site.baseurl }}">
-    <meta name="msapplication-config" content="{{ "/img/favicons/browserconfig.xml" | prepend: site.baseurl }}">
-    
-    <meta name="theme-color" content="#2b5797">
-    
-    <link href="{{ "/css/main.css" | prepend: site.baseurl }}" rel="stylesheet"> 
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta
+		name="viewport"
+		content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+	/>
+	<meta name="author" content="Oleh Zasadnyy, GDG Lviv" />
+	<meta name="description" content="{{ site.description }}" />
+	<meta name="keywords" content="{{ site.metaKeywords }}" />
+	<meta name="google-site-verification" content="{{ site.siteVerification }}" />
+	<link rel="canonical" href="{{ site.url }}" />
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <![endif]-->
-  </head>
+	<title>
+		{% if page.title %}{{ page.title }} &bull; {{ site.title }}{% else %}{{
+		site.title }}{% endif %}
+	</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>	
+	<link rel="shortcut icon" href="{{ "/img/favicons/favicon.ico" | prepend:
+	site.baseurl }}"> <link rel="apple-touch-icon" sizes="152x152" href="{{
+	"/img/favicons/apple-touch-icon-152x152.png" | prepend: site.baseurl }}">
+	<link rel="apple-touch-icon" sizes="144x144" href="{{
+	"/img/favicons/apple-touch-icon-144x144.png" | prepend: site.baseurl }}">
+	<link rel="apple-touch-icon" sizes="120x120" href="{{
+	"/img/favicons/apple-touch-icon-120x120.png" | prepend: site.baseurl }}">
+	<link rel="apple-touch-icon" sizes="114x114" href="{{
+	"/img/favicons/apple-touch-icon-114x114.png" | prepend: site.baseurl }}">
+	<link rel="apple-touch-icon" sizes="76x76" href="{{
+	"/img/favicons/apple-touch-icon-76x76.png" | prepend: site.baseurl }}"> <link
+	rel="apple-touch-icon" sizes="72x72" href="{{
+	"/img/favicons/apple-touch-icon-72x72.png" | prepend: site.baseurl }}"> <link
+	rel="apple-touch-icon" sizes="60x60" href="{{
+	"/img/favicons/apple-touch-icon-60x60.png" | prepend: site.baseurl }}"> <link
+	rel="apple-touch-icon" sizes="57x57" href="{{
+	"/img/favicons/apple-touch-icon-57x57.png" | prepend: site.baseurl }}"> <link
+	rel="icon" type="image/png" href="{{ "/img/favicons/favicon-196x196.png"
+	sizes="196x196" | prepend: site.baseurl }}"> <link rel="icon" type="image/png"
+	href="{{ "/img/favicons/favicon-160x160.png" sizes="160x160" | prepend:
+	site.baseurl }}"> <link rel="icon" type="image/png" href="{{
+	"/img/favicons/favicon-96x96.png" sizes="96x96" | prepend: site.baseurl }}">
+	<link rel="icon" type="image/png" href="{{ "/img/favicons/favicon-32x32.png"
+	sizes="32x32" | prepend: site.baseurl }}"> <link rel="icon" type="image/png"
+	href="{{ "/img/favicons/favicon-16x16.png" sizes="16x16" | prepend:
+	site.baseurl }}">
+	<meta name="msapplication-TileColor" content="#2b5797" />
+	<meta name="msapplication-TileImage" content="{{
+	"/img/favicons/mstile-144x144.png" | prepend: site.baseurl }}"> <meta
+	name="msapplication-config" content="{{ "/img/favicons/browserconfig.xml" |
+	prepend: site.baseurl }}">
+
+	<meta name="theme-color" content="#2b5797" />
+
+	<link href="{{ "/css/main.css" | prepend: site.baseurl }}" rel="stylesheet">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
