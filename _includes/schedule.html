@@ -6,7 +6,7 @@
 			<div class="important-dates-table row animated hiding" data-animation="fadeInDown" data-delay="0">
 			{% assign animationDelay = 0 %}
             {% for date in site.importantDates %}
-	            <div class="important-dates-row animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+	            <div class="important-dates-row animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}" style="width: 100%;">
 	            	<div class="row">
 						<div class="col-sm-6 col-xs-12">
 							<p class="title"><b>{{ date.name }}</b></p>
