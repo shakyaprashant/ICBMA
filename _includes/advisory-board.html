@@ -1,9 +1,8 @@
 <section
   id="advisory-board"
-  class="advisory-board image-section parallax"
-  style="background-image: url({{ site.baseurl }}/img/sections-background/{{ site.advisoryBoardImage }});"
+  class="advisory-board"
 >
-  <div class="overlay solid-overlay"></div>
+  <!-- <div class="overlay solid-overlay"></div> -->
   <div class="content-wrapper">
     <div class="col-lg-10 col-lg-offset-1 advisory-board-list">
       <!-- <h3 id="advisory-board-title">{{ site.advisoryBoardTitle }}</h3> -->
@@ -16,7 +15,23 @@
         <div class="member">
           <div
             class="flow-img img-circle member-img"
-            style="background-image: url(/img/people/{{ member.image}})"
+            style="background-image: url(/img/people/advisory/{{member.image}})"
+          ></div>
+          <div class="name">{{ member.name }}</div>
+          <div class="sub">{{ member.sub }}</div>
+        </div>
+      </div>
+      {% endfor %}
+      {% for member in site.advisoryBoardMembers2 %}
+      <div
+        class="col-md-3 col-xs-6 advisory-board-item animated hiding"
+        data-animation="fadeInDown"
+        data-delay="0"
+      >
+        <div class="member">
+          <div
+            class="flow-img img-circle member-img"
+            style="background-image: url(/img/people/advisory/{{member.image}})"
           ></div>
           <div class="name">{{ member.name }}</div>
           <div class="sub">{{ member.sub }}</div>

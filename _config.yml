@@ -49,6 +49,7 @@ navigationLinks:
  - {permalink: "/registration/", text: "Registration"}
  - {permalink: "/program/", text: "Program"}
  - {permalink: "/venue/", text: "Venue"}
+ - {permalink: "/past-conferences/", text: "Past Conferences"}
 bottomNavigationLinks:
  - {link: "/registration/", text: "Register"}
 rightNavigationButtons:
@@ -57,16 +58,17 @@ rightNavigationButtons:
 # Hero Block
 heroImage: "Academic_Building.jpg"
 heroLogo: "mnnitlogo.png"
-eventName: "ICBMA 2020"
+eventName: "ICBMA 2021"
 heroTitle: "Big Data, Machine Learning & Their Applications"
-eventDate: "November 2020"
+eventDate: "May 28-30, 2021"
 heroButtons:
  - {link: "/registration/", text: "Register"}
 
 # About Block
 aboutTitle: "About ICBMA"
-aboutUs1: "The International conference on Big Data, Machine learning & Their Applications (ICBMA-2020) is proposed to be held in MNNIT Allahbad to promote interdisciplinary research under the TEQIP-III, from June 5 -7, 2020. ICBMA is a unique international conference that provides a forum for academics, researchers and practitioners from academia and industries to exchange ideas and share recent developments in the field of Big Data and Machine Learning and their Applications. The conference will provide a platform for researchers to get recognition for their research innovations and provide wider publicity to the Institute as well as industries. ICBMA-2020 focuses on both theory and applications in the broad areas of Big Data and Machine Learning and its application in various areas. The conference will provide the opportunities of collaboration with national and international organizations of repute to the research community. It is planned to have activities such as keynote addresses from academic and industry experts, technical sessions involving research paper presentation, tutorials, and workshops."
-aboutUs2: "All Accepted, presented and registered papers will be published in the Springer Book Series* (Proposal sent for approval). Some outstanding papers are invited to submit as an extended paper from reputed journals indexed in SCI, SCI-E, SCOPUS, and Web of Science. List of journals will be updated soon..."
+aboutUs1: "The 2<sup>nd</sup> International Conference on Big Data, Machine Learning & their Applications (ICBMA-2021) is proposed to be held in MNNIT Allahabad to promote interdisciplinary research, from May 28-30, 2021. ICBMA is a unique international conference that provides a forum for academics, researchers and practitioners from academia and industries to exchange ideas and share recent developments in the field of Big Data and Machine Learning and their Applications. The conference will provide a platform for researchers to get recognition for their research innovations and provide wider publicity to the Institute as well as industries. ICBMA-2021 focuses on both theory and applications in the broad areas of Big Data and Machine Learning and its Applications in various areas. The conference will provide the opportunities of collaboration with National and International organizations of repute to the research community. It is planned to have activities such as keynote addresses from academic and industry experts, technical sessions involving research paper presentation, tutorials, and workshops."
+# aboutUs2: "All Accepted, presented and registered papers will be published in the Springer Book Series* (Proposal sent for approval). Some outstanding papers are invited to submit as an extended paper from reputed journals indexed in SCI, SCI-E, SCOPUS, and Web of Science. List of journals will be updated soon..."
+aboutUs2: ""
 # aboutBlock:
 #  - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
 #  - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
@@ -74,25 +76,65 @@ aboutUs2: "All Accepted, presented and registered papers will be published in th
 
 importantDatesTitle: "Important Dates"
 importantDates:
-  - {name: "Paper Submission Deadline", date: "31st March 2020 (Extended)"}
-  - {name: "Notification of Acceptance", date: "May 1st 2020 (Extended)"}
-  - {name: "Final Paper Submission Deadline", date: "April 15"}
-  - {name: "Author's Registration", date: "April 15"}
-  - {name: "Conference", date: "June 5 - 7, 2020"}
+  - {name: "Paper Submission Deadline", date: "1st February 2021"}
+  - {name: "Notification of Acceptance", date: "15th March 2021"}
+  - {name: "Final Paper Submission Deadline", date: "15th April 2021"}
+  - {name: "Author's Registration", date: "15th April 2021"}
+  - {name: "Conference", date: "28-30th May, 2021"}
 
 advisoryBoardTitle: "Advisory Board"
 advisoryBoardImage: "rockstar-speakers.jpg"
 advisoryBoardMembers:
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg"}
+  - {name: "Dr. Ramesh Pandey", sub: "Applied Mechanics", image: "1.jpg"}
+  - {name: "Dr. Vishnu Agarwal", sub: "Biotechnology", image: "2.jpg"}
+  - {name: "Dr. Mukesh Kumar", sub: "Mathematics", image: "3.jpg"}
+  - {name: "Dr. Naresh Kumar", sub: "Physics", image: "4.jpg"}
+  - {name: "Dr. Tamal Ghosh", sub: "Chemistry", image: "5.jpg"}
+  - {name: "Dr. Sushil Kumar", sub: "Chemical Engineering", image: "6.jpg"}
+  - {name: "Dr. Rajesh Kumar Shastri", sub: "Humanities & Social Sciences", image: "7.jpg"}
+  - {name: "Dr. R. C. Vaishya", sub: "Civil Engineering", image: "8.jpg"}
+  - {name: "Prof. D.S. Kushwaha", sub: "Computer Science and Engineering", image: "9.jpg"}
+  - {name: "Prof. Asheesh K. Singh", sub: "Electrical Engineering", image: "10.jpg"}
+  - {name: "Dr. Amit Dhawan", sub: "Electronics and Communication Engineering", image: "11.jpg"}
+
+advisoryBoardMembers2:
+  - {name: "Prof. H.S. Goyal", sub: "Mechanical Engineering", image: ""}
+  - {name: "Dr. Tripti Singh", sub: "School of Management Studies", image: "13.jpg"}
+  - {name: "Prof. R. S Yadav", sub: "GIS Cell", image: "14.jpg"}
+  - {name: "Prof. Geetika", sub: "School of Management Studies", image: "15.jpg"}
+  - {name: "Prof. M. M. Gore", sub: "Computer Science and Engineering", image: "16.jpg"}
+  - {name: "Prof.Rakesh Narain", sub: "Mechanical Engineering", image: "17.jpg"}
+  - {name: "Prof. K.N. Pandey", sub: "Mechanical Engineering", image: "18.jpg"}
+  # - {name: "", sub: "", image: ".jpg"}
 
 
 organisingCommitteeTitle: "Organising Committee"
 organisingCommitteeImage: "rockstar-speakers.jpg"
 organisingCommitteeMembers:
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
+  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
   - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
   - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
   - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}

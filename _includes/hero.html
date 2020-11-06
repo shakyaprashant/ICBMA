@@ -9,7 +9,7 @@
             <h1>2<sup>nd</sup> International</h1>
             <h1 >{{ heroText[0] }}{{ heroText[1] }}</h1>
             <h1>{{site.eventName}}</h1>
-            <p>{{ site.eventDate }}</p>
+            <h5><b>{{ site.eventDate }}</b></h5>
             {% for button in site.heroButtons %}
             <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
             {% endfor %}

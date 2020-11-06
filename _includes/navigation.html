@@ -49,6 +49,13 @@
             <li>
                 <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"  href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}" {% if navigationLink.link != null %}target="_blank"{% endif %}>{{ navigationLink.text}}</a>
             </li>
+            {% assign navigationLink = site.navigationLinks[6] %}
+            <li class="dropdown">
+                <a class="dropdown-toggle {% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}" href="#" data-toggle="dropdown">{{ navigationLink.text}}</a>
+                <div id="myDropdownCalls" class="dropdown-menu">
+                    <a href="http://www.mnnit.ac.in/icbma2020/index.html/" class="dropdown-item" target="_blank">ICBMA 2020</a>
+                </div>
+            </li>
         </ul>
         <ul id="bottom-navlinks" class="bottom-navlinks visible-xs">
             {% for bottomNavigationLink in site.bottomNavigationLinks %}
