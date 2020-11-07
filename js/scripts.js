@@ -181,11 +181,11 @@
             event.stopPropagation();
             container.toggleClass('st-menu-open');
         });
-        $('.st-pusher').click(function() {
-            if (container.hasClass('st-menu-open')) {
-                container.removeClass('st-menu-open');
-            }
-        });
+        // $('.st-pusher').click(function() {
+        //     if (container.hasClass('st-menu-open')) {
+        //         container.removeClass('st-menu-open');
+        //     }
+        // });
 
         $('.track-header').each(function() {
             var slot = $(this).closest('.schedule-table').find('.slot').first();
