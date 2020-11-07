@@ -10,7 +10,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "ICBMA 2020"
+title: "ICBMA 2021"
 email: "navjot@mnnit.ac.in"
 description: "Big Data, Machine Learning & Their Applications"
 baseurl: ""
@@ -85,6 +85,10 @@ importantDates:
 advisoryBoardTitle: "Advisory Board"
 advisoryBoardImage: "rockstar-speakers.jpg"
 advisoryBoardMembers:
+  - {name: "Prof. Geetika", sub: "School of Management Studies", image: "15.jpg"}
+  - {name: "Prof. M. M. Gore", sub: "Computer Science and Engineering", image: "16.jpg"}
+  - {name: "Prof.Rakesh Narain", sub: "Mechanical Engineering", image: "17.jpg"}
+  - {name: "Prof. K.N. Pandey", sub: "Mechanical Engineering", image: "18.jpg"}
   - {name: "Dr. Ramesh Pandey", sub: "Applied Mechanics", image: "1.jpg"}
   - {name: "Dr. Vishnu Agarwal", sub: "Biotechnology", image: "2.jpg"}
   - {name: "Dr. Mukesh Kumar", sub: "Mathematics", image: "3.jpg"}
@@ -92,61 +96,13 @@ advisoryBoardMembers:
   - {name: "Dr. Tamal Ghosh", sub: "Chemistry", image: "5.jpg"}
   - {name: "Dr. Sushil Kumar", sub: "Chemical Engineering", image: "6.jpg"}
   - {name: "Dr. Rajesh Kumar Shastri", sub: "Humanities & Social Sciences", image: "7.jpg"}
-  - {name: "Dr. R. C. Vaishya", sub: "Civil Engineering", image: "8.jpg"}
+  - {name: "Prof. R. C. Vaishya", sub: "Civil Engineering", image: "8.jpg"}
   - {name: "Prof. D.S. Kushwaha", sub: "Computer Science and Engineering", image: "9.jpg"}
   - {name: "Prof. Asheesh K. Singh", sub: "Electrical Engineering", image: "10.jpg"}
-  - {name: "Dr. Amit Dhawan", sub: "Electronics and Communication Engineering", image: "11.jpg"}
-
-advisoryBoardMembers2:
-  - {name: "Prof. H.S. Goyal", sub: "Mechanical Engineering", image: ""}
+  - {name: "Prof. Amit Dhawan", sub: "Electronics and Communication Engineering", image: "11.jpg"}
+  - {name: "Prof. H.S. Goyal", sub: "Mechanical Engineering", image: "12.jpg"}
   - {name: "Dr. Tripti Singh", sub: "School of Management Studies", image: "13.jpg"}
   - {name: "Prof. R. S Yadav", sub: "GIS Cell", image: "14.jpg"}
-  - {name: "Prof. Geetika", sub: "School of Management Studies", image: "15.jpg"}
-  - {name: "Prof. M. M. Gore", sub: "Computer Science and Engineering", image: "16.jpg"}
-  - {name: "Prof.Rakesh Narain", sub: "Mechanical Engineering", image: "17.jpg"}
-  - {name: "Prof. K.N. Pandey", sub: "Mechanical Engineering", image: "18.jpg"}
-  # - {name: "", sub: "", image: ".jpg"}
-
-
-organisingCommitteeTitle: "Organising Committee"
-organisingCommitteeImage: "rockstar-speakers.jpg"
-organisingCommitteeMembers:
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
-  - {name: "Dr. Navjot Singh", sub: "MNNIT Allahabad, India", image: "Navjot_Singh.jpg", pos: "General Chair"}
 
 
 
@@ -175,9 +131,9 @@ eventAddressLocality: "Allahabad Campus"
 eventAddressLocalityRegion: "Teliarganj"
 eventPostalCode: "211004"
 eventAddressCountry: "India"
-eventStartTime: "2020-10-25T10:00"
+eventStartTime: "2021-5-28"
 eventDoorTime: "09:00"
-eventEndTime: "2020-10-25T20:00"
+eventEndTime: "2021-5-30"
 eventPlaceCoordinates: "25.4920, 81.8639"
 mapCenterCoordinates: "25.4920, 81.8639"
 mapMobileCenterCoordinates: "25.4920, 81.8639"

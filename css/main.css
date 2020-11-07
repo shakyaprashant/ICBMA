@@ -2382,6 +2382,7 @@ p {
   line-height: 27px;
   padding-top: 15px;
   padding-bottom: 10px;
+  text-align: justify;
 }
 i {
   font-style: normal;
@@ -5797,10 +5798,10 @@ nav li a:hover {
 .advisory-board .sub {
   font-size: 16px;
 }
-.member-img {
+/* .member-img {
   width: 120px;
   height: 120px;
-}
+} */
 
 ol li, ul li {
   text-align: left;
