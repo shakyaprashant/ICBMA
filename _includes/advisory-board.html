@@ -1,33 +1,60 @@
-<section
-  id="advisory-board"
-  class="advisory-board"
->
-  <!-- <div class="overlay solid-overlay"></div> -->
-  <div class="content-wrapper">
-    
-    <div class="col-lg-10 col-lg-offset-1 advisory-board-list">
-      <!-- <h3 id="advisory-board-title">{{ site.advisoryBoardTitle }}</h3> -->
-      {% for member in site.advisoryBoardMembers %}
-      <div
-        class="col-md-3 col-xs-6 advisory-board-item animated hiding"
-        data-animation="fadeInDown"
-        data-delay="0"
-      >
-        <div class="member" style="height: 300px;">
-          <div
-          class="flow-img img-circle member-img"
-          {% if member.image %}style="background-image: url(/img/people/advisory/{{member.image}})"{% endif %}
-        ></div>
-          <div class="name">{{ member.name }}</div>
-          <div class="sub">{{ member.sub }}</div>
-        </div>
-      </div>
-      {% endfor %}
+<section id="advisory-board" class="advisory-board">
+	<!-- <div class="overlay solid-overlay"></div> -->
+	<div class="content-wrapper">
+		<div class="col-lg-10 col-lg-offset-1 advisory-board-list">
+			<!-- <h3 id="advisory-board-title">{{ site.advisoryBoardTitle }}</h3> -->
+			<h3>National Advisory Board</h3>
+			{% for member in site.advisoryBoardMembers %}
+			<div
+				class="col-md-3 col-xs-6 advisory-board-item animated hiding"
+				data-animation="fadeInDown"
+				data-delay="0"
+			>
+				<div class="member" style="height: 300px">
+					<div
+						class="flow-img img-circle member-img"
+						{%
+						if
+						member.image
+						%}style="background-image: url(/img/people/advisory/{{member.image}})"
+						{%
+						endif
+						%}
+					></div>
+					<div class="name">{{ member.name }}</div>
+					<div class="sub">{{ member.sub }}</div>
+				</div>
+			</div>
+			{% endfor %}
 
       <div class="clearfix"></div>
-      <!-- <span class="bordered">
+			<h3>International Advisory Board</h3>
+			{% for member in site.advioryBoardMembersInternational %}
+			<div
+				class="col-md-3 col-xs-6 advisory-board-item animated hiding"
+				data-animation="fadeInDown"
+				data-delay="0"
+			>
+				<div class="member" style="height: 300px">
+					<div
+						class="flow-img img-circle member-img"
+						{%
+						if
+						member.image
+						%}style="background-image: url(/img/people/advisory/{{member.image}})"
+						{%
+						endif
+						%}
+					></div>
+					<div class="name">{{ member.name }}</div>
+					<div class="sub">{{ member.sub }}</div>
+				</div>
+			</div>
+			{% endfor %}
+			<div class="clearfix"></div>
+			<!-- <span class="bordered">
 				<a href="{{ site.baseurl }}/speakers/" class="bottom-section-link waves-effect waves-button waves-light">{{ site.rockstarSpeakersButtonText }}</a>
 			</span> -->
-    </div>
-  </div>
+		</div>
+	</div>
 </section>

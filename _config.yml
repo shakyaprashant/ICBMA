@@ -83,7 +83,6 @@ importantDates:
   - {name: "Conference", date: "28-30th May, 2021"}
 
 advisoryBoardTitle: "Advisory Board"
-advisoryBoardImage: "rockstar-speakers.jpg"
 advisoryBoardMembers:
   - {name: "Prof. Geetika", sub: "School of Management Studies", image: "15.jpg"}
   - {name: "Prof. M. M. Gore", sub: "Computer Science and Engineering", image: "16.jpg"}
@@ -103,6 +102,15 @@ advisoryBoardMembers:
   - {name: "Prof. H.S. Goyal", sub: "Mechanical Engineering", image: "12.jpg"}
   - {name: "Dr. Tripti Singh", sub: "School of Management Studies", image: "13.jpg"}
   - {name: "Prof. R. S Yadav", sub: "GIS Cell", image: "14.jpg"}
+
+advioryBoardMembersInternational:
+  - {name: "Prof. Janusz Kacprzyk", sub: "Systems Research Institute, Polish Academy of Sciences, Poland", image: "19.jpg"}
+  - {name: "Prof. Sanjiv K. Bhatia", sub: "University of Missouri, St. Louis, USA", image: "20.jpg"}
+  - {name: "Prof. Yong Wang", sub: "Central South University, China in Advisory Board", image: "21.gif"}
+  - {name: "Dr. Peter Mueller", sub: "IBM Zurich Research Laboratory, Switzerland", image: "22.jpg"}
+  - {name: "Prof. Ajay Gupta", sub: " Western Michigan University, USA", image: "23.jpg"}
+#  - {name: "", sub: "", image: ""}
+#  - {name: "", sub: "", image: ""}
 
 
 
