@@ -3,10 +3,34 @@
         font-size: 20px;
     }
 </style>
-<section>
+<section class="advisory-board">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
-            <ul>
+            {% for member in site.programCommitteeMembers %}
+			<div
+				class="col-md-3 col-xs-6 advisory-board-item animated hiding"
+				data-animation="fadeInDown"
+				data-delay="0"
+			>
+				<div class="member" style="height: 300px">
+					<div
+						class="flow-img img-circle member-img"
+						{%
+						if
+						member.image
+						%}style="background-image: url(/img/people/program/{{member.image}})"
+						{%
+						endif
+						%}
+					></div>
+					<div class="name">{{ member.name }}</div>
+					<div class="sub">{{ member.sub }}</div>
+				</div>
+			</div>
+			{% endfor %}
+
+			<div class="clearfix"></div>
+            <!-- <ul>
                 <li> Prof. Sanjiv K. Bhatia, University of Missouri, St. Louis, USA </li>
                 <li> Dr. Peter Mueller, IBM Switzerland, Zurich </li>
                 <li> Prof. Yong Wang, Central South University, China </li>
@@ -54,7 +78,7 @@
                  <li>Dr. Omprakash Kaiwartya, Nottingham Trent University, England</li>
                 <li>Dr. Vrijendra Singh, IIIT Allahabad, India</li>
                 <li>Dr. M. Laxmaiah, CMR Engineering College, Hyderabad, India</li>
-            </ul>
+            </ul> -->
         </div>
     </div>
 </section>

@@ -90,11 +90,11 @@ advisoryBoardMembers:
   - {name: "Prof. K.N. Pandey", sub: "Mechanical Engineering", image: "18.jpg"}
   - {name: "Dr. Ramesh Pandey", sub: "Applied Mechanics", image: "1.jpg"}
   - {name: "Dr. Vishnu Agarwal", sub: "Biotechnology", image: "2.jpg"}
-  - {name: "Dr. Mukesh Kumar", sub: "Mathematics", image: "3.jpg"}
-  - {name: "Dr. Naresh Kumar", sub: "Physics", image: "4.jpg"}
-  - {name: "Dr. Tamal Ghosh", sub: "Chemistry", image: "5.jpg"}
+#  - {name: "Dr. Mukesh Kumar", sub: "Mathematics", image: "3.jpg"}
+#  - {name: "Dr. Naresh Kumar", sub: "Physics", image: "4.jpg"}
+#  - {name: "Dr. Tamal Ghosh", sub: "Chemistry", image: "5.jpg"}
   - {name: "Dr. Sushil Kumar", sub: "Chemical Engineering", image: "6.jpg"}
-  - {name: "Dr. Rajesh Kumar Shastri", sub: "Humanities & Social Sciences", image: "7.jpg"}
+#  - {name: "Dr. Rajesh Kumar Shastri", sub: "Humanities & Social Sciences", image: "7.jpg"}
   - {name: "Prof. R. C. Vaishya", sub: "Civil Engineering", image: "8.jpg"}
   - {name: "Prof. D.S. Kushwaha", sub: "Computer Science and Engineering", image: "9.jpg"}
   - {name: "Prof. Asheesh K. Singh", sub: "Electrical Engineering", image: "10.jpg"}
@@ -102,6 +102,7 @@ advisoryBoardMembers:
   - {name: "Prof. H.S. Goyal", sub: "Mechanical Engineering", image: "12.jpg"}
   - {name: "Dr. Tripti Singh", sub: "School of Management Studies", image: "13.jpg"}
   - {name: "Prof. R. S Yadav", sub: "GIS Cell", image: "14.jpg"}
+  - {name: "Prof. G. P. Sahu", sub: "MNNIT Allahabad", image: "26.jpg"}
 
 advioryBoardMembersInternational:
   - {name: "Prof. Janusz Kacprzyk", sub: "Systems Research Institute, Polish Academy of Sciences, Poland", image: "19.jpg"}
@@ -109,9 +110,26 @@ advioryBoardMembersInternational:
   - {name: "Prof. Yong Wang", sub: "Central South University, China in Advisory Board", image: "21.gif"}
   - {name: "Dr. Peter Mueller", sub: "IBM Zurich Research Laboratory, Switzerland", image: "22.jpg"}
   - {name: "Prof. Ajay Gupta", sub: " Western Michigan University, USA", image: "23.jpg"}
-#  - {name: "", sub: "", image: ""}
+  - {name: "Prof. Edward David Moreno Ordonez", sub: "UFS - Federal University of Sergipe, Brazil", image: "24.jpg"}
+  - {name: "Prof. Victor Chang", sub: Teesside University, Middlesbrough, UK.", image: "25.jpg"}
 #  - {name: "", sub: "", image: ""}
 
+programCommitteeTitle: "Program Committee"
+programCommitteeMembers:
+  - {name: "Philippe Fournier-Viger", sub: "Harbin Institute of Technology (Shenzhen), China", image: "1.jpg"}
+  - {name: "Prof. Sajjan G. Shiva", sub: "The University of Memphis, USA", image: "2.jpg"}
+  - {name: "Prof. Dimiter Velev", sub: "University of National and World Economy, Bulgeria", image: "3.jpg"}
+  - {name: "Dr. Pavel A. Osipov", sub: "Riga Technical University, Latvia", image: "4.jpg"}
+  - {name: "Prof. jose roberto castilho piqueira", sub: "University of São Paulo,Brazil", image: "5.gif"}
+  - {name: "Dr I. Joe Louis Paul", sub: "SSN College of Engineering, India", image: "6.jpg"}
+  - {name: "Dr K. K. Chaturvedi", sub: "Indian Agricultural Statistics Research Institute, India", image: "7.jpg"}
+  - {name: "Dr. Anastasios (Tasos) Doulamis", sub: "National Technical University of Athens, Greece", image: "8.jpg"}
+  - {name: "Dr. Somnath Banerjee", sub: "University of Milano-Bicocca, Italy", image: "9.jpg"}
+  - {name: "Dr. Iwens G. Sene Junior", sub: "University of Brasilia, Brazil", image: "10.jpg"}
+  - {name: "Prof. M. P. Singh", sub: "NIT Patna, India", image: "11.jpg"}
+  - {name: "Dr. Ashwani Kush", sub: " Kurukshetra University, India", image: "12.jpg"}
+  - {name: "Dr. Debashis Das", sub: "NIT Hamirpur, India", image: "13.jpg"}
+  - {name: "Dr. A. K. Verma", sub: "Thapar Institute of Engineering & Technology, India", image: "14.jpg"}
 
 
 # Statistic Block

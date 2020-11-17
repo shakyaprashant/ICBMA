@@ -3,8 +3,8 @@
 	<div class="content-wrapper">
 		<div class="col-lg-10 col-lg-offset-1 advisory-board-list">
 			<!-- <h3 id="advisory-board-title">{{ site.advisoryBoardTitle }}</h3> -->
-			<h3>National Advisory Board</h3>
-			{% for member in site.advisoryBoardMembers %}
+			<h3>International Advisory Board</h3>
+			{% for member in site.advioryBoardMembersInternational %}
 			<div
 				class="col-md-3 col-xs-6 advisory-board-item animated hiding"
 				data-animation="fadeInDown"
@@ -27,9 +27,9 @@
 			</div>
 			{% endfor %}
 
-      <div class="clearfix"></div>
-			<h3>International Advisory Board</h3>
-			{% for member in site.advioryBoardMembersInternational %}
+			<div class="clearfix"></div>
+			<h3>National Advisory Board</h3>
+			{% for member in site.advisoryBoardMembers %}
 			<div
 				class="col-md-3 col-xs-6 advisory-board-item animated hiding"
 				data-animation="fadeInDown"
