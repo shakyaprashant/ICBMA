@@ -112,13 +112,13 @@ advioryBoardMembersInternational:
   - {name: "Prof. Ajay Gupta", sub: " Western Michigan University, USA", image: "23.jpg"}
   - {name: "Prof. Edward David Moreno Ordonez", sub: "UFS - Federal University of Sergipe, Brazil", image: "24.jpg"}
   - {name: "Prof. Victor Chang", sub: Teesside University, Middlesbrough, UK.", image: "25.jpg"}
+  - {name: "Philippe Fournier-Viger", sub: "Harbin Institute of Technology (Shenzhen), China", image: "29.jpg"}
+  - {name: "Prof. Sajjan G. Shiva", sub: "The University of Memphis, USA", image: "27.jpg"}
+  - {name: "Prof. Dimiter Velev", sub: "University of National and World Economy, Bulgeria", image: "28.jpg"}
 #  - {name: "", sub: "", image: ""}
 
 programCommitteeTitle: "Program Committee"
 programCommitteeMembers:
-  - {name: "Philippe Fournier-Viger", sub: "Harbin Institute of Technology (Shenzhen), China", image: "1.jpg"}
-  - {name: "Prof. Sajjan G. Shiva", sub: "The University of Memphis, USA", image: "2.jpg"}
-  - {name: "Prof. Dimiter Velev", sub: "University of National and World Economy, Bulgeria", image: "3.jpg"}
   - {name: "Dr. Pavel A. Osipov", sub: "Riga Technical University, Latvia", image: "4.jpg"}
   - {name: "Prof. jose roberto castilho piqueira", sub: "University of São Paulo,Brazil", image: "5.gif"}
   - {name: "Dr I. Joe Louis Paul", sub: "SSN College of Engineering, India", image: "6.jpg"}
@@ -130,6 +130,34 @@ programCommitteeMembers:
   - {name: "Dr. Ashwani Kush", sub: " Kurukshetra University, India", image: "12.jpg"}
   - {name: "Dr. Debashis Das", sub: "NIT Hamirpur, India", image: "13.jpg"}
   - {name: "Dr. A. K. Verma", sub: "Thapar Institute of Engineering & Technology, India", image: "14.jpg"}
+  - {name: "Dr. Biswa Mohan Acharya", sub: "SOA University, India", image: "15.jpg"}
+  - {name: "Dr. Fernando Zacarias Flores", sub: "Universidad Autonoma de Puebla, Mexico", image: "unavailable.jpg"}
+  - {name: "Dr. Michael McGuire", sub: "University of Victoria, Canada", image: "16.jpg"}
+  - {name: "Dr. Ching-Hao Lai", sub: " Industrial Technology Research Institute of Taiwan, Taiwan", image: "17.jpg"}
+  - {name: "Dr. Ruggero Donida Labati", sub: "University of Milan, Itlay ", image: "18.jpg"}
+  - {name: "Prof. M.M. Sufyan Beg", sub: " Aligarh Muslim University, India", image: "19.jpg"}
+  - {name: "Dr. Bhaskar Biswas", sub: " IIT BHU, India", image: "20.jpg"}
+  - {name: "Dr. S. K. Mishra", sub: "IIT BHU, India", image: "21.jpg"}
+  - {name: "Dr. Pilli Emmanuel Shubhakar", sub: " MNIT Jaipur, India", image: "22.jpg"}
+  - {name: "Dr. Sushant Upadhyaya", sub: "MNIT Jaipur, India", image: "23.jpg"}
+  - {name: "Prof. K. K. Shukla", sub: "IIT BHU, India", image: "24.jpg"}
+  - {name: "Dr Yannis Karamitsos", sub: "Rochester Institute of Technology - Dubai Campus", image: "25.jpg"}
+  - {name: "Prof. Gang Wang", sub: "Hefei University of Technology, China", image: "26.jpg"}
+  - {name: "Dr. Saurabh Chaudhury", sub: "NIT Silchar, India", image: "27.jpg"}
+  - {name: "Dr. Neetesh Kumar", sub: "IIT Roorkee, India", image: "28.jpg"}
+  - {name: "Dr. Hemant Kumar Aggarwal", sub: "The University of IOWA, USA", image: "29.jpg"}
+  - {name: "Dr. M. Tanveer", sub: "IIT Indore, India", image: "30.jpg"}
+  - {name: "Dr. Omprakash Kaiwartya", sub: "Nottingham Trent University, England", image: "31.jpg"}
+  - {name: "Dr. Deepak Gupta", sub: "NIT Arunachal Pradesh, India", image: "32.jpg"}
+  - {name: "Dr. Krishan Kumar", sub: "NIT Uttarakhand, India", image: "33.jpg"}
+  - {name: "Dr. Vrijendra Singh", sub: "IIIT Allahabad, India", image: "34.jpg"}
+  - {name: "Dr. Diksha Shukla", sub: "University of Wyoming, USA", image: "35.jpg"}
+  - {name: "Dr. Bijil Prakash", sub: "Presidency University, India", image: "36.jpg"}
+  - {name: "Dr. Amit Pimpalkar", sub: " G. H. Raisoni AET, Nagpur, India", image: "37.jpg"}
+  - {name: "Dr. Vahid Abolghasemi", sub: "University of Essex, UK", image: "38.jpg"}
+  - {name: "Dr. P. Vijayakumar", sub: "VIT Chennai, India", image: "39.jpg"}
+  - {name: "Dr. Dheerendra Mishra", sub: "IIT Kharagpur, India", image: "40.jpg"}
+  - {name: "Dr. Yogendra Kumar Prajapati", sub: "MNNIT Allahabad, India", image: "41.jpg"}
 
 
 # Statistic Block
