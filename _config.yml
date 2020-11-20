@@ -158,6 +158,11 @@ programCommitteeMembers:
   - {name: "Dr. P. Vijayakumar", sub: "VIT Chennai, India", image: "39.jpg"}
   - {name: "Dr. Dheerendra Mishra", sub: "IIT Kharagpur, India", image: "40.jpg"}
   - {name: "Dr. Yogendra Kumar Prajapati", sub: "MNNIT Allahabad, India", image: "41.jpg"}
+  - {name: "Dr. Gadadhar Sahoo", sub: "IIT (ISM) Dhanbad, India", image: "42.jpg"}
+  - {name: "Dr. Amar Buchade", sub: "Pune Institute of Computer Technology, Pune, India", image: "43.jpg"}
+  - {name: "Prof. Paulo Francisco Butzen", sub: "Federal University of Rio Grande Sul, Brazil", image: "44.jpg"}
+  - {name: "Prof. Joberto S. B. Martins", sub: "Salvador University, Brazil", image: "45.jpg"}
+  - {name: "Dr. Nasimuddin", sub: "Institute for Infocomm Research A-STAR, Singapore", image: "46.gif"}
 
 
 # Statistic Block
